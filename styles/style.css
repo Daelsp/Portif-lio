@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    /*--cor-principal: #000000;
-    --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #22D4FD; 
-    --cor-hover: #272727;
-    */
     --cor-principal: #27374D;
     --cor-secundaria: #ffffff;
     --cor-terciaria: #9DB2BF; 
@@ -102,7 +97,7 @@ body {
     font-family: var(--font-secundaria);
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover); /*muda a cor do fundo quando passamos por cima com o mouse*/
 }
 
