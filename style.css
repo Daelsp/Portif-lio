@@ -58,6 +58,9 @@ body {
 .apresentacao__links__link{
     /*background-color: #22D4FD; Cor do botao*/
     border: 2px solid #22D4FD;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 378px; /*largura do botao*/
     text-align: center;
     border-radius: 8px;
