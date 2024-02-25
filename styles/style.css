@@ -1,23 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --cor-principal: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD; 
+    --cor-hover: #272727;
+}
 *{
     margin: 0;
     padding: 0;
 }
 
 body {
-    height: 100vh;
+    /*height: 100vh;*/
     box-sizing: border-box;
-    background-color: black;
-    color: #F6F6F6;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
 }
 
-.tituloDestaque{
-    color: #22D4FD;
+.cabecalho{
+    padding: 2% 0 0 15%;/*preenchimento superior, direito, inferior, esquerdo*/
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__menu__link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    padding: 5% 15%;
     display: flex; /* para posicionar elementos na tela*/
     align-items: center;
     justify-content: space-between; /*Flexbox para espaçar os elementos e adicione margens*/
@@ -28,6 +46,10 @@ body {
     display: flex; /* para posicionar elementos na tela*/
     flex-direction: column;
     gap: 40px;
+}
+
+.tituloDestaque{
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__titulo{
@@ -57,7 +79,7 @@ body {
 
 .apresentacao__links__link{
     /*background-color: #22D4FD; Cor do botao*/
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -68,10 +90,21 @@ body {
     font-weight: 600;
     padding: 21.5px 0; /*Adiciona-se dois valores para mexer VERTICAL e HORIZONTAL*/
     text-decoration: none; /*tira o sublinhado padrao do link*/
-    color: #F6F6F6;   /*cor do texto*/
+    color: var(--cor-secundaria);   /*cor do texto*/
     font-family: "Montserrat", sans-serif;
 }
 
 .apresentacao__links__link:hover {
-    background-color:#272727 ; /*muda a cor do fundo quando passamos por cima com o mouse*/
+    background-color: var(--cor-hover); /*muda a cor do fundo quando passamos por cima com o mouse*/
+    padding: 3%
+}
+
+.rodape{
+    padding: 24px;
+    color: var(--cor-principal);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
