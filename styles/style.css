@@ -9,7 +9,7 @@
     --cor-principal: #27374D;
     --cor-secundaria: #ffffff;
     --cor-terciaria: #9DB2BF; 
-    --cor-hover: #DDE6ED;
+    --cor-hover: #213551;
     --font-primaria: "Krona One", sans-serif;
     --font-secundaria: "Montserrat", sans-serif;
 }
@@ -103,7 +103,6 @@ body {
 
 .apresentacao__links__link:hover {
     background-color: var(--cor-hover); /*muda a cor do fundo quando passamos por cima com o mouse*/
-    padding: 3%
 }
 
 .rodape{
