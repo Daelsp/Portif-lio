@@ -133,3 +133,18 @@ body {
         width: auto;
     }
 } /*se a tela for menor que 1200px ativa  esse estilo css */
+
+.apresentacao__links__navegacao__email{
+    border: 2px solid var(--cor-terciaria);
+    justify-content: center;
+    gap: 16px;
+    width: 50%; /*largura do botao*/
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px ; /*Adiciona-se dois valores para mexer VERTICAL e HORIZONTAL*/
+    text-decoration: none; /*tira o sublinhado padrao do link*/
+    color: var(--cor-secundaria);   /*cor do texto*/
+    font-family: var(--font-secundaria);
+}
