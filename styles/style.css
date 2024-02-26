@@ -148,3 +148,6 @@ body {
     color: var(--cor-secundaria);   /*cor do texto*/
     font-family: var(--font-secundaria);
 }
+.apresentacao__links__navegacao__email:hover{
+    background-color: var(--cor-hover);
+}
