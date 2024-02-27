@@ -151,3 +151,18 @@ body {
 .apresentacao__links__navegacao__email:hover{
     background-color: var(--cor-hover);
 }
+
+.apresentacao__links__certificado{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%; /*largura do botao*/
+    text-align: center;
+    border-radius: 0px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0px 0; /*Adiciona-se dois valores para mexer VERTICAL e HORIZONTAL*/
+    text-decoration: none; /*tira o sublinhado padrao do link*/
+    color: var(--cor-secundaria);   /*cor do texto*/
+    font-family: var(--font-secundaria);
+}
